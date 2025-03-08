@@ -17,10 +17,34 @@
     }
     var engine = new P2PEngineDash(player, p2pConfig);
     player.initialize(document.querySelector("#videoPlayer"), url, true);
+    
+    window.performanceData = {
+        startupDelays: [],
+        bufferingEvents: [],
+        p2pBandwidths: []
+    };
+    let bufferingCount = 0;
+    const video = document.getElementById("videoPlayer");
+
+    const startTime = Date.now();
+    video.onplaying = () => {
+        const delay = (Date.now() - startTime) / 1000;
+        window.performanceData.startupDelays.push(delay);
+        console.log(`Startup Delay: ${delay}s`);
+    };
+
+    video.onwaiting = () => {
+        bufferingCount++;
+        window.performanceData.bufferingEvents.push(bufferingCount);
+        console.log("Buffering...");
+    };
+
     engine.on('stats', function (stats) {
         var total = stats.totalHTTPDownloaded + stats.totalP2PDownloaded;
         document.querySelector('#info').innerText = `p2p ratio: ${Math.round(stats.totalP2PDownloaded / total * 100)}%   saved traffic: ${Math.round(stats.totalP2PDownloaded)}KB upload: ${Math.round(stats.totalP2PUploaded)}KB`;
-    })
+        window.performanceData.p2pBandwidths.push(stats.totalP2PDownloaded / 1024); // Store in KB
+    });
+
     engine.on('peers', function (peers) {
         document.querySelector('#peers').innerText = `peers: ${peers.length}`;
     })
