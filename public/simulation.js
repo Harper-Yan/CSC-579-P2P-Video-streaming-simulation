@@ -20,7 +20,10 @@ const NETWORK_CONDITIONS = {
 
 const totalPeers = 10;
 let peers = [];
-let peerElements = []; // To track the video elements for each peer
+let peerElements = [];
+let peerMetrics = [];
+let startTime = Date.now();
+let simulationDuration = 60000; // 60 seconds
 
 function assignNetworkCondition() {
     let condition = Math.random();
@@ -41,9 +44,10 @@ for (let i = 0; i < totalPeers; i++) {
         bandwidth: networkCondition.bandwidth,
         latency: networkCondition.latency,
         jitter: networkCondition.jitter,
-        status: 'active'
+        status: 'active',
+        startupDelay: 0,
+        p2pContribution: 0
     });
-    console.log(`Peer ${i} assigned network condition:`, networkCondition);
 }
 
 function createPeerElement(peerIndex) {
@@ -56,6 +60,7 @@ function createPeerElement(peerIndex) {
     videoElement.controls = true;
     videoElement.width = 640;
     videoElement.height = 360;
+    videoElement.muted = true; 
     peerContainer.appendChild(videoElement);
 
     const player = dashjs.MediaPlayer().create();
@@ -67,9 +72,8 @@ function createPeerElement(peerIndex) {
 
 function removePeerElement(peerIndex) {
     const peer = peerElements[peerIndex];
-    if (peer) {
-        peer.peerContainer.removeChild(peer.videoElement);
-        peer.peerContainer.removeChild(peer.peerContainer);
+    if (peer && peer.peerContainer && peer.peerContainer.parentNode) {
+        peer.peerContainer.parentNode.removeChild(peer.peerContainer);
         delete peerElements[peerIndex];
     }
 }
@@ -82,8 +86,8 @@ async function measureBandwidth(peerIndex) {
     await new Promise(resolve => setTimeout(resolve, latency));
 
     const adjustedBandwidth = peer.bandwidth * (1 + (Math.random() * jitter / 100));
-    console.log(`Peer ${peerIndex} has adjusted bandwidth: ${adjustedBandwidth} kbps due to jitter`);
-    return adjustedBandwidth;
+    const totalBandwidth = calculateAverageBandwidth() * peers.length;  
+    return Math.min(adjustedBandwidth, totalBandwidth);  
 }
 
 function adjustChurnRate(peerIndex) {
@@ -94,19 +98,55 @@ function adjustChurnRate(peerIndex) {
     return 0.05;
 }
 
+function calculateAverageBandwidth() {
+    let totalBandwidth = 0;
+    peers.forEach(peer => {
+        totalBandwidth += peer.bandwidth;
+    });
+    return totalBandwidth / peers.length;
+}
+
+function calculateP2PContributionRatio(peerIndex) {
+    const peer = peers[peerIndex];
+    const totalBandwidth = calculateAverageBandwidth();
+    const p2pContribution = peer.bandwidth / totalBandwidth;
+    return p2pContribution;
+}
+
+setTimeout(() => {
+    console.log('Simulation ended');
+    const csvData = [];
+    csvData.push('Peer ID, Average Bandwidth (kbps), P2P Contribution, Startup Delay (ms)'); // CSV header
+
+    peers.forEach(peer => {
+        const avgBandwidth = peer.bandwidth;
+        const p2pContribution = calculateP2PContributionRatio(peer.id);
+        const startupDelay = peer.startupDelay;
+        console.log(`Peer ${peer.id} - Average Bandwidth: ${avgBandwidth} kbps`);
+        console.log(`Peer ${peer.id} - P2P Contribution: ${p2pContribution}`);
+        console.log(`Peer ${peer.id} - Startup Delay: ${startupDelay} ms`);
+
+        csvData.push(`${peer.id}, ${avgBandwidth}, ${p2pContribution}, ${startupDelay}`);
+    });
+
+    const csvFilePath = 'simulation_results.csv';
+    fs.writeFileSync(csvFilePath, csvData.join('\n')); // Writes the CSV data to a file
+
+    console.log(`Data written to ${csvFilePath}`);
+}, simulationDuration);
+
+
 setInterval(function () {
     for (let i = 0; i < totalPeers; i++) {
         let randomChance = Math.random();
         let adjustedChurnRate = adjustChurnRate(i);
         if (randomChance < adjustedChurnRate) {
             if (peers[i].status === 'active') {
-                console.log(`Peer ${i} has left.`);
                 peers[i].status = 'inactive';
-                removePeerElement(i); // Remove peer element when it leaves
+                removePeerElement(i);
             } else {
-                console.log(`Peer ${i} has joined.`);
                 peers[i].status = 'active';
-                createPeerElement(i); // Add peer element when it joins
+                createPeerElement(i);
             }
         }
     }
@@ -115,21 +155,14 @@ setInterval(function () {
 setInterval(async function () {
     for (let peerIndex = 0; peerIndex < totalPeers; peerIndex++) {
         if (peers[peerIndex].status === 'active') {
-            var bandwidth = await measureBandwidth(peerIndex);
-            socket.emit('bandwidthReport', { peerId: peerIndex, bandwidth: bandwidth });
+            const bandwidth = await measureBandwidth(peerIndex);
+            peers[peerIndex].bandwidth = bandwidth;
+            peers[peerIndex].startupDelay = Date.now() - startTime;
+            socket.emit('bandwidthReport', {
+                peerId: peerIndex,
+                bandwidth: bandwidth
+            });
         }
     }
 }, 1000);
 
-function simulate() {
-    setInterval(async function () {
-        for (let peerIndex = 0; peerIndex < totalPeers; peerIndex++) {
-            if (peers[peerIndex].status === 'active') {
-                var bandwidth = await measureBandwidth(peerIndex);
-                console.log(`Updated bandwidth for Peer ${peerIndex}: ${bandwidth}`);
-            }
-        }
-    }, 1000);
-}
-
-simulate();

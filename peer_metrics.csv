@@ -1,0 +1,31 @@
+Simulation ended simulation.js:117:13
+Peer 0 - Average Bandwidth: 94745.7298885789 kbps simulation.js:125:17
+Peer 0 - P2P Contribution: 0.0003815122145831969 simulation.js:126:17
+Peer 0 - Startup Delay: 59626 ms simulation.js:127:17
+Peer 1 - Average Bandwidth: 358813805.1615345 kbps simulation.js:125:17
+Peer 1 - P2P Contribution: 1.4448339739551928 simulation.js:126:17
+Peer 1 - Startup Delay: 59803 ms simulation.js:127:17
+Peer 2 - Average Bandwidth: 15931.050051902317 kbps simulation.js:125:17
+Peer 2 - P2P Contribution: 0.0000641494893024162 simulation.js:126:17
+Peer 2 - Startup Delay: 31413 ms simulation.js:127:17
+Peer 3 - Average Bandwidth: 1142389.1923513466 kbps simulation.js:125:17
+Peer 3 - P2P Contribution: 0.00460005354544648 simulation.js:126:17
+Peer 3 - Startup Delay: 43507 ms simulation.js:127:17
+Peer 4 - Average Bandwidth: 1849011802.8462477 kbps simulation.js:125:17
+Peer 4 - P2P Contribution: 7.44540770886368 simulation.js:126:17
+Peer 4 - Startup Delay: 59981 ms simulation.js:127:17
+Peer 5 - Average Bandwidth: 273816299.33616513 kbps simulation.js:125:17
+Peer 5 - P2P Contribution: 1.102574890410006 simulation.js:126:17
+Peer 5 - Startup Delay: 59159 ms simulation.js:127:17
+Peer 6 - Average Bandwidth: 21028.568516688123 kbps simulation.js:125:17
+Peer 6 - P2P Contribution: 0.00008467564452509712 simulation.js:126:17
+Peer 6 - Startup Delay: 59210 ms simulation.js:127:17
+Peer 7 - Average Bandwidth: 53263.815092221244 kbps simulation.js:125:17
+Peer 7 - P2P Contribution: 0.0002144771703894256 simulation.js:126:17
+Peer 7 - Startup Delay: 59261 ms simulation.js:127:17
+Peer 8 - Average Bandwidth: 437954.9321001386 kbps simulation.js:125:17
+Peer 8 - P2P Contribution: 0.001763511202348115 simulation.js:126:17
+Peer 8 - Startup Delay: 42910 ms simulation.js:127:17
+Peer 9 - Average Bandwidth: 18637.4913328891 kbps simulation.js:125:17
+Peer 9 - P2P Contribution: 0.00007504750452656319 simulation.js:126:17
+Peer 9 - Startup Delay: 52082 ms
