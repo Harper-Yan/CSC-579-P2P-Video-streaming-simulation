@@ -1,0 +1,156 @@
+{
+  "churnRate": 0.1,
+  "prioritize": true,
+  "metrics": [
+    {
+      "timestamp": 2000,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 60,
+          "startupDelay": 0.531,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 127,
+          "startupDelay": 0.693,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 84,
+          "startupDelay": 1.444,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 4003,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 60,
+          "startupDelay": 0.531,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 127,
+          "startupDelay": 0.693,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 84,
+          "startupDelay": 1.444,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 6006,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 60,
+          "startupDelay": 0.531,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 127,
+          "startupDelay": 0.693,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 84,
+          "startupDelay": 1.444,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 8008,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 60,
+          "startupDelay": 0.531,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 127,
+          "startupDelay": 0.693,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 84,
+          "startupDelay": 1.444,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 10010,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 60,
+          "startupDelay": 0.531,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 127,
+          "startupDelay": 0.693,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 84,
+          "startupDelay": 1.444,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    }
+  ]
+}

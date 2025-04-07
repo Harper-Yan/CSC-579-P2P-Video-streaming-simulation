@@ -1,0 +1,1922 @@
+[
+  {
+    "churnRate": 0.3,
+    "networkCondition": {
+      "name": "Good",
+      "offline": false,
+      "latency": 20,
+      "downloadThroughput": 1310720,
+      "uploadThroughput": 655360
+    },
+    "metrics": [
+      {
+        "timestamp": 2887,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 0,
+            "startupDelay": 1.861,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.35,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 1.931640625
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.89,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 3971,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          }
+        ]
+      },
+      {
+        "timestamp": 4026,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          }
+        ]
+      },
+      {
+        "timestamp": 4084,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          }
+        ]
+      },
+      {
+        "timestamp": 4145,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          }
+        ]
+      },
+      {
+        "timestamp": 7067,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.779,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 7901,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 3.84765625
+          }
+        ]
+      },
+      {
+        "timestamp": 11017,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.03125
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.57,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 14601,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.03125
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 17735,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.03125
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0.0322265625
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.695,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 27285,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.03125
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.7763671875
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.691,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 1.931640625
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.744,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0.064453125
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 27766,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.351,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.03125
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.691,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 1.931640625
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.744,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0.064453125
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 27955,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.691,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 1.931640625
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 31011,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.939,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 31825,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 35370,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 1.027,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 36427,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 36481,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.575,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 4.80859375
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 39440,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 40340,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 0.837,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 40466,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 43720,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.514,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 46877,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0.514,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 50701,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.602,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 50767,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.602,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 53903,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0.962,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.602,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.772,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 57711,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0.602,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.772,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.586,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 60773,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 2,
+            "startupDelay": 0.788,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.772,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.586,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0.77,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "churnRate": 0.3,
+    "networkCondition": {
+      "name": "Poor",
+      "offline": false,
+      "latency": 200,
+      "downloadThroughput": 131072,
+      "uploadThroughput": 65536
+    },
+    "metrics": [
+      {
+        "timestamp": 5526,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 0,
+            "startupDelay": 2.926,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 5675,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 5730,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 11204,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 16684,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 22114,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.985,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.952,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 27623,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.952,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.936,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 27771,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.952,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 33230,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 33303,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 38737,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.93,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.925,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.963,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44322,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.963,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.926,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44465,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.926,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44652,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44706,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44764,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44823,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44885,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44947,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45008,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45070,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45131,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45192,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45255,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45315,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45375,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 45436,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 50877,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 4,
+            "startupDelay": 2.921,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 51035,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 51089,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 51142,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 67225,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.931,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 2.97,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 2.933,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "churnRate": 0.3,
+    "networkCondition": {
+      "name": "Unstable",
+      "offline": false,
+      "latency": 500,
+      "downloadThroughput": 262144,
+      "uploadThroughput": 131072
+    },
+    "metrics": [
+      {
+        "timestamp": 9702,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 0,
+            "startupDelay": 2.702,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.703,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 9870,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.703,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 9930,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.703,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 14776,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.739,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 19624,
+        "activePeers": 5,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 2.739,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 4,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 19855,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.709,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 29396,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 2.712,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34322,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.696,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34398,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 2.696,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34542,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34664,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34717,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34775,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34832,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34890,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 34951,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 35010,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 39792,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 39859,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 39999,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 40052,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 40110,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 44883,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 49654,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 54455,
+        "activePeers": 4,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 2.694,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 3,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 54724,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 54777,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59555,
+        "activePeers": 2,
+        "peers": [
+          {
+            "peerId": 3,
+            "startupDelay": 2.706,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59695,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59747,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59806,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59864,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59923,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 59983,
+        "activePeers": 1,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      },
+      {
+        "timestamp": 69466,
+        "activePeers": 3,
+        "peers": [
+          {
+            "peerId": 1,
+            "startupDelay": 2.708,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 1,
+            "startupDelay": 2.701,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          },
+          {
+            "peerId": 2,
+            "startupDelay": 0,
+            "bufferingEvents": 1,
+            "p2pBandwidth": 0
+          }
+        ]
+      }
+    ]
+  }
+]

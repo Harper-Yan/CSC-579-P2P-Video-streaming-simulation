@@ -1,0 +1,124 @@
+{
+  "churnRate": 0.1,
+  "prioritize": false,
+  "metrics": [
+    {
+      "timestamp": 2001,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 149,
+          "startupDelay": 6.009,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 442,
+          "startupDelay": 1.686,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 226,
+          "startupDelay": 1.72,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 4004,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 149,
+          "startupDelay": 6.009,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 442,
+          "startupDelay": 1.686,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 226,
+          "startupDelay": 1.72,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 6007,
+      "activePeers": 3,
+      "peers": [
+        {
+          "peerId": 0,
+          "distance": 149,
+          "startupDelay": 6.009,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 1,
+          "distance": 442,
+          "startupDelay": 1.686,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        },
+        {
+          "peerId": 2,
+          "distance": 226,
+          "startupDelay": 1.72,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 8151,
+      "activePeers": 1,
+      "peers": [
+        {
+          "peerId": 1,
+          "distance": 442,
+          "startupDelay": 1.686,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    },
+    {
+      "timestamp": 10152,
+      "activePeers": 1,
+      "peers": [
+        {
+          "peerId": 1,
+          "distance": 442,
+          "startupDelay": 1.686,
+          "bufferingEvents": 1,
+          "p2pBandwidth": 0,
+          "playbackLatency": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,11 @@
 {
   "dependencies": {
     "cdnbye-dash": "github:cdnbye/dashjs-p2p-engine",
+    "chart.js": "^4.4.8",
     "dash.js": "^4.0.0",
     "express": "^4.21.2",
-    "puppeteer": "^24.4.0"
+    "puppeteer": "^24.6.0",
+    "simple-peer": "^9.11.1",
+    "ws": "^8.18.1"
   }
 }
