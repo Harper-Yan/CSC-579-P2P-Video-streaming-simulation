@@ -12,8 +12,9 @@ const totalPeers = 10;
 let peers = [];
 let peerElements = [];
 let simulationStartTime = Date.now();
-let simulationDuration = 60000; // 60 seconds
+let simulationDuration = 10000; 
 let csvData = [];
+let poorPeersCount = 0; 
 
 function assignNetworkCondition() {
     const rand = Math.random();
@@ -52,6 +53,11 @@ function createPeer(index) {
     player.initialize(video, 'https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd', true);
 
     peerElements[index] = { container, video, player };
+
+    // Track if the peer is a poor stable peer
+    if (condition.bandwidth === 1000) {
+        poorPeersCount++;
+    }
 }
 
 function removePeer(index) {
@@ -62,6 +68,11 @@ function removePeer(index) {
     if (el && el.container && el.container.parentNode) {
         el.container.parentNode.removeChild(el.container);
         delete peerElements[index];
+    }
+
+    // Update poor peer count
+    if (peers[index] && peers[index].networkCondition.bandwidth === 1000) {
+        poorPeersCount--;
     }
 }
 
@@ -104,9 +115,11 @@ function collectCSVData(timestamp) {
             });
         }
     });
+
+    const poorPeerRatio = poorPeersCount / totalPeers;
+    console.log(`Poor Stable Peer Ratio: ${poorPeerRatio.toFixed(2)}`);
 }
 
-// Helper function to get a label for the network condition
 function getNetworkConditionLabel(networkCondition) {
     if (networkCondition.bandwidth === 5000) return 'GOOD_STABLE';
     if (networkCondition.bandwidth === 1000) return 'POOR_STABLE';
@@ -114,9 +127,9 @@ function getNetworkConditionLabel(networkCondition) {
 }
 
 function exportCSV() {
-    const headers = "Peer ID,Time (ms),Bandwidth (kbps),Latency (ms),Jitter (%),P2P Contribution Ratio\n";
+    const headers = "Peer ID,Time (ms),Bandwidth (kbps),Latency (ms),Jitter (%),P2P Contribution Ratio,Network Condition\n";
     const rows = csvData.map(d =>
-        `${d.id},${d.time},${d.bandwidth},${d.latency},${d.jitter},${d.contribution}`
+        `${d.id},${d.time},${d.bandwidth},${d.latency},${d.jitter},${d.contribution},${d.networkCondition}`
     );
     const blob = new Blob([headers + rows.join("\n")], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
