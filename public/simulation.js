@@ -3,7 +3,7 @@
     var socket = io.connect('http://localhost:3000');
     var peerId = null;
     var totalPeers = 3;  
-    var alpha = 0.1;  //Selected rather randomly
+    var alpha = 0.8;  //[0.7 to 1]
 
     var peersPositions = [];
     for (let i = 0; i < totalPeers; i++) {
