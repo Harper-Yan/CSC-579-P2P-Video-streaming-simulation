@@ -8,3 +8,7 @@ How to run the prototype
 2. node server.js
 3. In a different tab: node simulation.js
 4. For view of realtime figures, go to webpage : "host/visual"
+
+
+The locations of logbook:
+Please check branch "experiments"
